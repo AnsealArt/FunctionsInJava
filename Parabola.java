@@ -18,7 +18,7 @@ public
 
 
     public static void test(String[] args) {
-        System.out.println("Parabola test: ");
+        System.out.println("Basic parabola value: ");
         Parabola parabola = new Parabola(1.0, 2.0, 3.0);
         System.out.println(parabola.fun(0));
     }
